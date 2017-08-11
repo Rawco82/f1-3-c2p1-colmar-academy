@@ -1,0 +1,393 @@
+/* Universal Styles */
+
+body {
+  /*display: block;*/
+  margin: 0em;
+  padding: 0em;
+  font-family: "Helvetica", sans-serif;
+  color: #4A4A4A;
+  background-color: #F3F5F5;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  height: 4em;
+  width: 100%;
+  border-bottom: 0.0625em solid black;
+  padding-bottom: 0.3125em;
+  justify-content: space-between;
+  background-color: white;
+}
+
+header .brand {
+  display: flex;
+  padding-left: 1.875em;
+  flex-grow: 1;
+  align-items: center;
+}
+
+header .brand .icon {
+  margin-left: 1.5em;
+}
+
+header .brand .name {
+  display: inline-block;
+  padding-left: 0.125em;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+nav {
+  padding-right: 1.25em;
+}
+
+nav ul {
+  display: flex;
+  padding: 1em 0.625em;
+  list-style: none;
+}
+
+a {
+  text-transform: capitalize;
+}
+
+/* section one */
+
+#hero {
+  background-color: #D8D8D8;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+  #hero .hero-image {
+    width: 57%;
+    margin: 2em;
+    margin-left: 1,5em;
+    margin-right: 3.75em;
+}
+
+#hero .hero-image img {
+  width: 100%;
+}
+
+#hero .hero-cta {
+  margin-left: 0em;
+  padding-right: 1.5em;
+  padding-bottom: 3em;
+}
+
+.hero-heading {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#hero .hero-description {
+  font-size: 1.5em;
+  padding-bottom: 0.625em;
+  padding-top: 0.3125em;
+  font-weight: bold;
+
+}
+
+#hero .hero-button {
+  width: 100%;
+  padding: 0.5em 0em;
+  color: white;
+  background-color: #4A4A4A;
+  border: none;
+  text-transform: capitalize;
+  margin-top: 0.625em;
+}
+
+/* SECTION TWO --- COLUMN 1*/
+
+ #blog-section {
+  display: flex;
+  height: 43.75em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+div {
+  display: block;
+}
+
+.column-large {
+  display: block;
+  width: 69%;
+  height: 100%;
+}
+
+.column-large-img {
+  display: flex;
+  height: 71%;
+  width: 91%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5em;
+  margin-top: 2em;
+}
+
+.column-large-img img {
+  height: 98%;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.blog-narrative {
+  display: inline-block;
+  height: 30%;
+  width: 100%;
+}
+
+.blog-narrative p {
+  margin-left: 0.625em;
+}
+
+.blog-narrative h2 {
+  font-size: 1.875em;
+  font-weight: bold;
+  font-style: normal;
+  margin-left: 1.5em;
+}
+
+.blog-narrative h4 {
+  font-size: 0.7em;
+  font-weight: bold;
+  padding-top: 0.75em;
+  margin-left: 0.625em;
+}
+
+.column-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 94%;
+  width: 40%;
+  margin-left: 0em;
+  margin-top: 2.3125em;
+}
+
+.blog-img1 {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  align-items: flex-start;
+  margin-left: 0em;
+}
+
+.blog-img2 {
+  display: flex;
+  height: 45%;
+  width: 100%;
+  align-items: center;
+  margin-left: 0em;
+  margin-top: 0em;
+}
+
+.blog-img3 {
+  display: flex;
+  height: 25%;
+  width: 100%;
+  align-items: flex-start;
+  margin-left: 0em;
+  margin-top: 0em;
+  background-color: #D8D8D8;
+}
+
+.blog-img1 img {
+    height: 100%;
+    width: 35%;
+}
+
+.blog-img2 img {
+    height: 70%;
+    width: 35%;
+}
+
+.blog-img3 img {
+    height: 80%;
+    width: 35%;
+    margin-top: 1em;
+}
+
+.blog-text {
+  height: 30%;
+  width: 99%;
+}
+
+.blog-text2 {
+  height: 30%;
+  width: 99%;
+  align-content: center;
+  margin-bottom: 3.125em;
+}
+
+a:link {
+    text-decoration: none;
+    margin-left: 0.625em;
+}
+
+/* SECTION 3 START LEARNING */
+
+#learning {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 2em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.flex-container {
+  display: flex;
+  width: 85%;
+  height: 43.75em;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.flex-container img {
+  height: 8.75em;
+  width: 18.75em;
+  display: inline-block;
+}
+
+#learning h2 {
+padding-bottom: 1.5em;
+background-color: ##F3F5F5;
+}
+
+h3 {
+  display: flex;
+  margin: 0;
+  padding-left: 0.625em;
+  font-weight: bold;
+  text-align: left;
+}
+
+h4, p {
+  display: block;
+  text-align: left;
+  padding-left: 0.625em;
+}
+
+.courses {
+  display: block;
+  justify-content: center;
+  height: 50%;
+  width: 18.75em;
+  text-align: left;
+}
+
+/* SECTION 4 THESIS */
+
+#thesis {
+  display: flex;
+  height: 37.5em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.thesis-exhibit {
+  text-align: center;
+}
+
+.urban {
+  display: block;
+  width: 77%;
+  height: 95%;
+}
+
+.video-box {
+  display: flex;
+  height: 71%;
+  width: 89%;
+  margin-left: 1.625em;
+  margin-right: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgrey;
+}
+
+.video-box video {
+  height: 98%;
+  width: auto;
+  flex-grow: 1;
+}
+
+.thesis-narrative {
+  display: inline-block;
+  height: 30%;
+  width: 93%;
+  margin-left: 1.25em;
+  margin-top: 1.5em;
+}
+
+.thesis-narrative h3 {
+  font-size: 1.875em;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.second-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 94%;
+  width: 40%;
+  margin-left: 0em;
+  margin-top: 0.125em;
+  margin-right: 2.5em;
+}
+
+.fisma-img {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  align-items: flex-start;
+  margin-left: 0em;
+}
+
+.now-img {
+  display: flex;
+  height: 45%;
+  width: 100%;
+  align-items: center;
+  margin-left: 0em;
+  margin-top: 0em;
+}
+
+.fisma-img img {
+    height: 100%;
+    width: 35%;
+}
+
+.now-img img {
+    height: 70%;
+    width: 35%;
+}
+
+.fisma-text {
+  height: 30%;
+  width: 99%;
+  padding-top: 1.875em;
+}
+
+.now-text {
+  height: 30%;
+  width: 99%;
+  align-content: center;
+  margin-bottom: 3.125em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
